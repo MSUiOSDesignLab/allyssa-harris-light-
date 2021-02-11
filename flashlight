@@ -1,0 +1,31 @@
+//
+//  ViewController.swift
+//  Light
+//
+//  Created by Allyssa Harris on 1/24/21.
+//  Copyright © 2021 Allyssa Harris. All rights reserved.
+//
+
+import UIKit
+var lightOn = true
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+  
+    @IBAction func buttonPressed(_ sender: Any) {
+        func buttonPressed(_ sender: Any) {
+        }
+        lightOn.toggle()
+        if lightOn {view.backgroundColor = .white}
+        else {
+            view.backgroundColor = .black
+        }
+    }
+    
+    }
+    
